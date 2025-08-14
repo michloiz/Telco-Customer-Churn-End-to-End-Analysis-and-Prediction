@@ -12,12 +12,12 @@ This project provides a comprehensive analysis of telco customer churn. The goal
 
 # Project Structure
 The Dataset can be accessed here: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
-Telco_Churn_Dashboard.pbix: Contains the PowerBI file with the produced Dashboard.
-Telco_Churn_Dashboard.pdf: Contains in pdf form a screenshot of the dashboard
-Telco_Churn_SQL_Queries: Includes all SQL queries used for EDA.
-Telco_Churn_Prediction.py: Contains the python script used to predict churn
-Classification_Report.txt: Includes all logistic regression classification metrics (accuracy, precision, F1 score, recall)
-Confusion_Matrix.png: Screenshot of the confusion matrix
+- Telco_Churn_Dashboard.pbix: Contains the PowerBI file with the produced Dashboard.
+- Telco_Churn_Dashboard.pdf: Contains in pdf form a screenshot of the dashboard
+- Telco_Churn_SQL_Queries: Includes all SQL queries used for EDA.
+- Telco_Churn_Prediction.py: Contains the python script used to predict churn
+- Classification_Report.txt: Includes all logistic regression classification metrics (accuracy, precision, F1 score, recall)
+- Confusion_Matrix.png: Screenshot of the confusion matrix
 
 # Exploratory Data Analysis (EDA) with SQL
 The initial investigation of the dataset was conducted using SQL. This allowed for efficient querying and aggregation to uncover relationships between customer attributes and churn. The analysis focused on:
