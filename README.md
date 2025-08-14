@@ -14,7 +14,7 @@ This project provides a comprehensive analysis of telco customer churn. The goal
 The Dataset can be accessed here: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 - Telco_Churn_Dashboard.pbix: Contains the PowerBI file with the produced Dashboard.
 - Telco_Churn_Dashboard.pdf: Contains in pdf form a screenshot of the dashboard
-- Telco_Churn_SQL_Queries: Includes all SQL queries used for EDA.
+- Telco_Churn_SQL_Queries.sql: Includes all SQL queries used for EDA.
 - Telco_Churn_Prediction.py: Contains the python script used to predict churn
 - Classification_Report.txt: Includes all logistic regression classification metrics (accuracy, precision, F1 score, recall)
 - Confusion_Matrix.png: Screenshot of the confusion matrix
@@ -26,7 +26,7 @@ The initial investigation of the dataset was conducted using SQL. This allowed f
 - Account information (contract type, tenure, payment method).
 - Service usage (phone, internet, tech support, etc.)
 
-The SQL scripts in the sql_eda/ directory were used to create the data views that feed directly into the Power BI dashboard.
+The SQL scripts in the Telco_Churn_SQL_Queries.sql file were used to create the data views that feed directly into the Power BI dashboard.
 
 # Power BI Dashboard
 An interactive dashboard was developed in Power BI to provide a high-level overview of the churn analysis. The dashboard allows business stakeholders to easily explore key performance indicators (KPIs) and visualize churn patterns across different segments.
@@ -50,9 +50,7 @@ The model's performance was evaluated on a held-out portion of the data.
 To explore the components of this project, follow these steps:
 - Clone the Repository: Download the project files to your local machine.
 - git clone https://github.com/michloiz/Telco-Customer-Churn-End-to-End-Analysis-and-Prediction
-.git
-- Run the Prediction Model: To execute the Python script, first install the necessary libraries listed in requirements.txt. Then, run the script from your terminal.
-python python_model/churn_prediction.py
-- View the SQL Queries: The complete set of SQL scripts used for the analysis can be viewed in the sql_eda/ folder.
-- Explore the Dashboard: To view the interactive dashboard, navigate to the powerbi_dashboard directory, download the .pbix file, and open it using Power BI Desktop. The DAX logic is documented in the same folder.
+- Run the Prediction Model: To execute the Python script, first install the necessary libraries listed in the beggining of the Telco_Churn_Prediction.py script . Then, run the script from your terminal.
+- View the SQL Queries: The complete set of SQL scripts used for the analysis can be viewed in the Telco_Churn_SQL_Queries.sql file
+- Explore the Dashboard: To view the interactive dashboard,  download the .pbix file, and open it using Power BI Desktop. The DAX logic is within the same file.
 
