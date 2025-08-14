@@ -11,10 +11,13 @@ This project provides a comprehensive analysis of telco customer churn. The goal
 - Core Python Libraries: Pandas, Scikit-learn, Matplotlib
 
 # Project Structure
-data/: Contains the raw .csv dataset.
-sql_eda/: Includes the SQL queries used for initial data exploration and to define data pipelines for the dashboard.
-powerbi_dashboard/: Holds the Power BI file, a document outlining the DAX measures, and a preview image of the dashboard.
-python_model/: Contains the Python script for training and evaluating the churn prediction model.
+The Dataset can be accessed here: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+Telco_Churn_Dashboard.pbix: Contains the PowerBI file with the produced Dashboard.
+Telco_Churn_Dashboard.pdf: Contains in pdf form a screenshot of the dashboard
+Telco_Churn_SQL_Queries: Includes all SQL queries used for EDA.
+Telco_Churn_Prediction.py: Contains the python script used to predict churn
+Classification_Report.txt: Includes all logistic regression classification metrics (accuracy, precision, F1 score, recall)
+Confusion_Matrix.png: Screenshot of the confusion matrix
 
 # Exploratory Data Analysis (EDA) with SQL
 The initial investigation of the dataset was conducted using SQL. This allowed for efficient querying and aggregation to uncover relationships between customer attributes and churn. The analysis focused on:
