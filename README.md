@@ -46,7 +46,8 @@ The model's performance was evaluated on a held-out portion of the data.
 
 To explore the components of this project, follow these steps:
 - Clone the Repository: Download the project files to your local machine.
-- git clone https://github.com/michloiz/telco-churn-prediction.git
+- git clone https://github.com/michloiz/Telco-Customer-Churn-End-to-End-Analysis-and-Prediction
+.git
 - Run the Prediction Model: To execute the Python script, first install the necessary libraries listed in requirements.txt. Then, run the script from your terminal.
 python python_model/churn_prediction.py
 - View the SQL Queries: The complete set of SQL scripts used for the analysis can be viewed in the sql_eda/ folder.
