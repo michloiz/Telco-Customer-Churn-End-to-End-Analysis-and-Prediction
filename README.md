@@ -31,3 +31,24 @@ Key features of the dashboard include:
 - Overall churn rate and customer counts.
 - Breakdowns of churn by contract type, internet service, and other critical factors.
 - DAX measures were created to calculate metrics such as Total Churn Rate and Revenue by Customer Segment. 
+
+# Churn Prediction Model
+A logistic regression model was built using Python and the Scikit-learn library to predict whether a customer will churn. The model provides a quantitative way to identify at-risk customers, enabling the company to take proactive retention measures.
+
+# Model Performance
+The model's performance was evaluated on a held-out portion of the data.
+- Overall Accuracy: The model achieved an accuracy of 80.7%, meaning it correctly predicted the outcome for the vast majority of customers.
+- Performance Breakdown: The model is highly effective at correctly identifying customers who will not churn. Its ability to predict customers who will churn is moderate, indicating that while it successfully flags many at-risk customers, there is an opportunity for future improvement to catch even more.
+- Confusion Matrix: A visual representation of the model's performance, including its specific predictions versus the actual outcomes, is available. This plot is saved in the python_model directory
+
+
+# How to Reproduce This Project
+
+To explore the components of this project, follow these steps:
+- Clone the Repository: Download the project files to your local machine.
+- git clone https://github.com/michloiz/telco-churn-prediction.git
+- Run the Prediction Model: To execute the Python script, first install the necessary libraries listed in requirements.txt. Then, run the script from your terminal.
+python python_model/churn_prediction.py
+- View the SQL Queries: The complete set of SQL scripts used for the analysis can be viewed in the sql_eda/ folder.
+- Explore the Dashboard: To view the interactive dashboard, navigate to the powerbi_dashboard directory, download the .pbix file, and open it using Power BI Desktop. The DAX logic is documented in the same folder.
+
