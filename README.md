@@ -31,6 +31,7 @@ This project provides a comprehensive analysis of telco customer churn. The goal
 The dataset can be accessed here: [Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 - `Telco_Churn_Dashboard.pbix`: Power BI file containing the interactive dashboard.
+- `dashboard.png`: Screenshot of the Power BI dashboard.
 - `Telco_Churn_Dashboard.pdf`: PDF version of the dashboard.
 - `Telco_Churn_SQL_Queries.sql`: SQL queries used for data exploration.
 - `Telco_Churn_Prediction.py`: Python script for churn prediction.
@@ -59,6 +60,9 @@ An interactive dashboard was developed in Power BI to provide a high-level overv
 - Breakdowns of churn by contract type, internet service, and other critical factors.
 - DAX measures for Total Churn Rate and Revenue by Customer Segment.
 
+### Dashboard Screenshot
+![Power BI Dashboard](dashboard.png)
+
 ---
 
 ## Churn Prediction Model
@@ -70,7 +74,9 @@ A logistic regression model was built using Python and the Scikit-learn library 
 - **Performance Breakdown**:
   - The model is highly effective at identifying customers who will not churn.
   - Moderate performance in predicting customers who are likely to churn.
-- **Confusion Matrix**: Visual representation of the model's predictions versus actual outcomes.
+
+### Confusion Matrix
+![Confusion Matrix](Confusion_Matrix.png)
 
 ---
 
